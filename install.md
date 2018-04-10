@@ -74,3 +74,22 @@ If Git is not already available on your machine you can try to install it via yo
 1. Open http://continuum.io/downloads with your web browser.
 1. Download the Python 3 installer for Linux.
 1. Install Python 3 using all of the defaults for installation.
+
+### conda environment
+
+In the project folder run :
+
+`
+conda env create -f environment.yml
+`
+
+`
+source activate adv-comp-18
+`
+
+To update the `adv-comp-18` environment you can use :
+
+`
+conda env update -f environment.yml
+`
+
